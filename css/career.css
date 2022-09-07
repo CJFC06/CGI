@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', SansSerif;
+}
+header{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: black;
+  opacity: .6;
+  height: 50px;
+  z-index: 1;
+  color: black;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header li, a, button{
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav_links{
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+table{
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 10px;
+  text-align: center;
+}
+caption{
+  border-bottom: solid 1px ;
+}
+#title{
+  text-align: center;
+}
+td{
+  font-size: 15px;
+  /* border: solid 1px; */
+  width: 180px;
+  padding: 10px;
+  text-overflow: ellipsis;
+}
+input{
+margin: auto;
+}
+.id{
+  color: #003147;
+  font-weight: 500;
+}
+.name{
+  font-weight: 800;
+}
+.reason, .description, .name{
+  text-transform: capitalize;
+}
+.reason, .description{
+  text-align: left;
+  font-style: oblique;
+}
+.delete{
+  background: #FF4500;
+}
+.edit{
+background: #424242;
+}
+.delete, .edit{
+  font-size: 13px;
+  margin: 5px;
+  border-radius: 6px;
+  height: 20px;
+  width: 60px;
+}
+
+#addTable{
+  background: gray;
+  color: white;
+  padding: 0px;
+  font-style: oblique;
+  border: solid 2px;
+}
+#addTable input{
+/* border: solid 1px; */
+min-width: 150px;
+}
+#addTable h3{
+/* border: solid 1px; */
+font-style: normal;
+color: black;
+}
+#addBtn{
+  width:50px;
+  font-family: sans-serif;
+  background:  #2a7da2;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+}
