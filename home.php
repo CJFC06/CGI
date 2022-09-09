@@ -146,6 +146,18 @@
                 <h4>HTML</h4>
                 <h4>MySql</h4>
             </div>
+            <h2 class="title2">Other Skills</h2>
+            <div class="box2">
+                <h4>Game Development using Unity cross-platform game engine</h4>
+                <h4>Microsoft office tools</h4>
+                <h4>Arduino Programming</h4>
+                <h4>computer troubleshooting(hardware and software)</h4>
+                <h4>Knowledge and experience in electrical, electronic and mechanical works</h4>
+                <h4>Installation of Hardware Equipment(cabling, cctv, etc.)</h4>
+                <h4>Software Installation (Operating System/application)</h4>
+                <h4>Knowledge in Building Wiring Installation</h4>
+                <h4>Knowledge in Motors & Controls and PLC(programmable logic controller)</h4>
+            </div>
         </div>
 
         <div class="about projects">

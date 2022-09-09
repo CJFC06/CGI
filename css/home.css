@@ -198,13 +198,25 @@ p {
 }
 .skills .box {
     position: relative;
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     /* width: 100%; */
     /* grid-template-columns: 150px 1fr; */
     /* justify-content: center;
     align-items: center; */
 }
-.skills .box h4 {
+.skills .box2 {
+    position: relative;
+    display: block;
+    /* grid-template-columns: repeat(1,1fr); */
+}
+.skills .box2 h4{
+    position: relative;
+    display: block; 
+    margin-top: 10px;
+    /* grid-template-columns: repeat(1,1fr); */
+}
+.skills .box H4, .box2 h4 {
     text-transform: uppercase;
     color: #848c90;
     font-weight: 500;
@@ -236,7 +248,7 @@ p {
     grid-template-columns: repeat(4,1fr);
 }
 .interest ul li {
-    list-style: none;
+    list-style:none;
     color: black;
     font-weight: 500;
     margin: 10px 0;
@@ -246,7 +258,7 @@ p {
     font-size: 18px;
     width: 20px;
 }
-@media (max-width: 1000px) {
+@media (max-width:1000px) {
     .container {
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
@@ -266,6 +278,8 @@ p {
         grid-template-columns: repeat(1,1fr);
     }
     .skills .box {
+        grid-template-columns: repeat(3,1fr);
+    }.skills .box2 {
         grid-template-columns: repeat(1,1fr);
     }
 }
