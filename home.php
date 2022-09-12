@@ -144,7 +144,7 @@
                 <h4>PHP</h4>
                 <h4>C#</h4>
                 <h4>HTML</h4>
-                <h4>MySql</h4>
+                <h4>MySql </h4>
             </div>
             <h2 class="title2">Other Skills</h2>
             <div class="box2">
