@@ -93,7 +93,9 @@ background: #424242;
   font-style: oblique;
   border: solid 2px;
   margin-bottom: 50px;
+
 }
+ 
 #addTable input{
 /* border: solid 1px; */
 min-width: 150px;

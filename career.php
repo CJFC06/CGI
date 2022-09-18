@@ -62,10 +62,10 @@
          <td><h6>COMPLETED DATE</h6> </td>
        </tr>
        <tr>
-         <td><input type="text" name="name"></td>
-         <td><input type="text" name="description"></td>
-         <td><input type="text" name="reason"> </td>
-         <td><input type="date" name="target"></td>
+         <td><input type="text" name="name" required></td>
+         <td><input type="text" name="description" required></td>
+         <td><input type="text" name="reason" required> </td>
+         <td><input type="date" name="target" required></td>
          <td><input type="date" name="completed"></td>
        </tr>
 

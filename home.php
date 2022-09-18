@@ -36,7 +36,7 @@
             <br>
             <h2>Rowell Esguerra <br><span>BSIT</span> </h2>
         </div>
-
+<!-- CONTACT -->
         <div class="contactInfo">
             <h3 class="title">Contact Info</h3>
             <ul>
@@ -58,6 +58,7 @@
                 </li>
             </ul>
         </div>
+<!-- EDUCATION               -->
         <div class="contactInfo education">
             <h3 class="title">Education</h3>
             <ul>
@@ -73,6 +74,7 @@
                 </li>
             </ul>
         </div>
+<!-- LANGUAGES         -->
         <div class="contactInfo language">
             <h3 class="title">Languages</h3>
             <ul>
@@ -94,11 +96,13 @@
         </div>
     </div>
     <div class="right_Side">
+<!-- PROFILE -->
         <div class="about">
             <h2 class="title2">Profile</h2>
             <p>IT graduate major in service management with a background in Java, HTML, CSS, Python, PHP, MySQL and JavaScript.
               Highly analytical, motivated and skilled at solving programming problems. Can work well both independently and in a team.
         </div>
+<!-- EXPERIENCE         -->
         <div class="about">
             <h2 class="title2">Experience</h2>
             <div class="box">
@@ -111,7 +115,6 @@
                     <p>Input/process client's delivery information.</p>
                 </div>
             </div>
-
             <div class="box">
                 <div class="year_company">
                     <h5>2014 - 2017</h5>
@@ -122,7 +125,6 @@
                     <p>Preventive maintenance and repair of elevators and escalators around metro manila and other out of town.</p>
                 </div>
             </div>
-
             <div class="box">
                 <div class="year_company">
                     <h5>2013 - 2014</h5>
@@ -134,7 +136,7 @@
                 </div>
             </div>
         </div>
-
+<!-- SKILLS -->
         <div class="about skills">
             <h2 class="title2">Skills</h2>
             <div class="box">
@@ -146,9 +148,11 @@
                 <h4>HTML</h4>
                 <h4>MySql </h4>
             </div>
+<!-- OTHER SKILLS             -->
             <h2 class="title2">Other Skills</h2>
             <div class="box2">
                 <h4>Game Development using Unity cross-platform game engine</h4>
+                <h4>Knowledge in mobile app development using Android Studio</h4>
                 <h4>Microsoft office tools</h4>
                 <h4>Arduino Programming</h4>
                 <h4>computer troubleshooting(hardware and software)</h4>
@@ -159,15 +163,15 @@
                 <h4>Knowledge in Motors & Controls and PLC(programmable logic controller)</h4>
             </div>
         </div>
-
+<!-- PROJECTS -->
         <div class="about projects">
           <h2 class="title2">Projects</h2>
           <ul>
-            <li>RadPenguin Android Game. Quiz game for RadTech students of University of Makati</li>
+            <li>RadPenguin Android Game. A Quiz Game for RadTech students of University of Makati</li>
             <li>English Learning Web Application for 2 to 4 yrs old </li>
           </ul>
         </div>
-
+<!-- CERTIFICATIONS -->
         <div class="about interest">
             <h2 class="title2">Certifications</h2>
             <ul>
