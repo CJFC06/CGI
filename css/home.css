@@ -212,7 +212,7 @@ p {
 }
 .skills .box2 h4{
     position: relative;
-    display: block; 
+    display: block;
     margin-top: 10px;
     /* grid-template-columns: repeat(1,1fr); */
 }

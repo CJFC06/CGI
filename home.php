@@ -153,6 +153,9 @@
             <div class="box2">
                 <h4>Game Development using Unity cross-platform game engine</h4>
                 <h4>Knowledge in mobile app development using Android Studio</h4>
+                <h4>Bootstrap</h4>
+                <h4>Git</h4>
+                <h4>Knowledge in Web hosting via GoDaddy</h4>
                 <h4>Microsoft office tools</h4>
                 <h4>Arduino Programming</h4>
                 <h4>computer troubleshooting(hardware and software)</h4>

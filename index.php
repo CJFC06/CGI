@@ -40,6 +40,7 @@
 </body>
 
 <?php
+session_start();
 $servername = 'localhost';
 $user = 'root';
 $pass  = '';
@@ -50,21 +51,22 @@ $conn = new mysqli($servername, $user , $pass, $db);
   if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
   }
-  else {
-    // echo "connected";
-  }
+  echo @$_SESSION["cgiuser"];
+
 
 //login attempt
   if (isset($_POST['LOGIN'])) {
   $username   = $_POST['username'];
   $password  = $_POST['password'];
     // $sql  ="SELECT * FROM user where username = '$username' and password = md5('$passsword')";
-    $sql  ="SELECT * FROM user where username = '$username' and password = '$password'";
+    $sql  = "SELECT * FROM user where username = '$username' and password = '$password'";
     $sqlLogin = mysqli_query($conn,$sql);
 
     if($_POST['username'] && $_POST['password']){
       if (mysqli_num_rows($sqlLogin)==1) {
-        header('Location: home.php'); 
+        $_SESSION["cgiuser"] = $username;
+        $UN =$_SESSION["cgiuser"]; 
+        header('Location: home.php');
       }
       else{
         header('Location: index.php?incorrect=*Incorrect Username or Password');

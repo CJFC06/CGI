@@ -1,7 +1,6 @@
 <?php
 session_start();
-if (isset($_POST['logout'])) {
-  unset($_SESSION['User']);
-  unset($_SESSION['Pass']);
+  unset($_SESSION["cgiuser"]);
+  unset($_SESSION["cgipass"]);
   header('Location: index.php');
-} ?>
+?>
