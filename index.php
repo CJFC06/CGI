@@ -51,7 +51,6 @@ $conn = new mysqli($servername, $user , $pass, $db);
   if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
   }
-  echo @$_SESSION["cgiuser"];
 
 
 //login attempt
@@ -65,7 +64,7 @@ $conn = new mysqli($servername, $user , $pass, $db);
     if($_POST['username'] && $_POST['password']){
       if (mysqli_num_rows($sqlLogin)==1) {
         $_SESSION["cgiuser"] = $username;
-        $UN =$_SESSION["cgiuser"]; 
+        $UN =$_SESSION["cgiuser"];
         header('Location: home.php');
       }
       else{

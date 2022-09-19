@@ -12,13 +12,11 @@ $conn = new mysqli($servername, $user , $pass, $db);
     die("Connection failed: " . $conn->connect_error);
   }
 
-  $username   =  @$_SESSION["cgiuser"];
-  // $passsword  =  @$_SESSION["cgipass"];
+  $username   =  @$_SESSION["cgiuser"]; 
   $sql  = "SELECT * FROM user where username = '$username' ";
   $sqlLogin = mysqli_query($conn,$sql);
 
   if(mysqli_num_rows($sqlLogin)!=1){
     header('Location: index.php' );
-
-  } 
+  }
  ?>
